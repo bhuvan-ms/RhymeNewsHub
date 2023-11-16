@@ -18,3 +18,5 @@ Build a Chrome extension that takes headlines from a news source and converts th
 4. Revised the approach and gave users the option to copy and paste the code themselves for better flexibility.
 5. User's input is sent to Firebase Functions, which utilizes the `node-fetch` library to fetch data from the specified URL.
 6. The response from Firebase Functions is sent back to the Chrome extension and displayed to the end user.
+7. Chrome extension code is present in the `client` folder and firebase funciton code is present in the `server` folder
+
